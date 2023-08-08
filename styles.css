@@ -1,0 +1,58 @@
+body {
+
+    background-image: url("NBALogo.jpg");
+    background-repeat: no-repeat; /* Prevents the background from repeating */
+    background-size: cover; /* Scales the background image to cover the entire body */
+    background-position: center center;
+    width: 100%; 
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+}
+
+main {
+
+    border-radius: 1rem;
+    background-image: url("Hoopimage.jpg");
+    background-repeat: no-repeat; /* Prevents the background from repeating */
+    background-size: cover; /* Scales the background image to cover the entire body */
+    background-position: center center;
+    width: min(100%, 40rem);
+    height: min(20rem);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+    padding: 4rem min(7%,4rem) ;
+    
+}
+
+.form {
+
+    display: flex;
+    justify-content: center;
+
+}
+
+input {
+    display: inline-flex;
+    margin: 1em;
+  }
+
+label {
+    display: inline-flex;
+    margin: 1em;
+    color: white;
+    background-color: black;
+    font-weight: bolder;
+}
+
+.articles {
+    max-height: 400px; /* Adjust this value based on your preference */
+    overflow-y: scroll; /* This enables vertical scrolling when content overflows */
+    color: white;
+    background-color: black;
+}

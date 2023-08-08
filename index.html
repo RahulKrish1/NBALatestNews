@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+  <link rel="stylesheet" href="styles.css">
+  <title>NBA Latest News</title>
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+  <main>
+    <form class="form" action="">
+        <label for="player">Player:</label>
+        <input class = "player" type="text" id="player" name="player"><br><br>
+        <label for="team">Team (Team Name Only):</label>
+        <input class="team" type="text" id="team" name="team"><br><br>
+    </form>
+    <button id="fetchButton">Latest Articles</button>
+    <div class="articles"></div>
+  </main>
+  <script src="main.js"></script>
+</body>
+</html>
